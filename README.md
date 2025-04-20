@@ -16,9 +16,8 @@ ThingSpeak is a cloud-based platform that allows users to create and manage IoT 
 
 
 ## Node-Red
-Node-Red is a visual programming tool that allows users to create flows of data between different devices. In this system, Node-Red is used to receive data from the MQTT server and send it to ThingSpeak.
+Node-Red is a visual programming tool that allows users to create flows of data between different devices. In this system, Node-Red is used to receive data from the MQTT server and send it to ThingSpeak
 
-You will need to install Node-Red on your computer and import the "flow.json" file. You will also need to update the MQTT server address and port in the flow.
 
 ## AI
 The AI is implemented using python and with RandomForestClassifier from the sklearn.ensemble library. The AI is trained on the historic data collected from ThingSpeak and is used to predict the future behavior of the lights which it publishes back to the MQTT server.
@@ -59,3 +58,8 @@ Here is an example output from the AI model:
 The data appering on ThingSpeak:
 ![alt text](<ThingSpeak Visualizations.png>)
 
+## Contributors:
+- Janok N. Dinçer
+- Çağan Çakır
+- WONG, Chi Hang
+- TO, Po Chun
