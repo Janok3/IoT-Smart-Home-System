@@ -1,0 +1,55 @@
+[
+    {
+        "id": "747b4c212ff102af",
+        "type": "mqtt in",
+        "z": "5a628289bc2e38d5",
+        "name": "",
+        "topic": "sensors/temperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "dbb214170f23703e",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 390,
+        "y": 420,
+        "wires": [
+            [
+                "43e4f0cecddc504d",
+                "67c91d9b2f91d4a6"
+            ]
+        ]
+    },
+    {
+        "id": "dbb214170f23703e",
+        "type": "mqtt-broker",
+        "name": "PolyU MQTT",
+        "broker": "ia.ic.polyu.edu.hk",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "30",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
